@@ -2,5 +2,25 @@
   {
     "TypeId": "public class Microsoft.AspNetCore.Mvc.ApiControllerAttribute : Microsoft.AspNetCore.Mvc.ControllerAttribute, Microsoft.AspNetCore.Mvc.Internal.IApiBehaviorMetadata",
     "Kind": "Removal"
+  },
+  {
+    "TypeId": "public class Microsoft.AspNetCore.Mvc.ModelBinding.FormValueProvider : Microsoft.AspNetCore.Mvc.ModelBinding.BindingSourceValueProvider, Microsoft.AspNetCore.Mvc.ModelBinding.IEnumerableValueProvider",
+    "MemberId": "protected Microsoft.AspNetCore.Mvc.Internal.PrefixContainer get_PrefixContainer()",
+    "Kind": "Removal"
+  },
+  {
+    "TypeId": "public abstract class Microsoft.AspNetCore.Mvc.ModelBinding.JQueryValueProvider : Microsoft.AspNetCore.Mvc.ModelBinding.BindingSourceValueProvider, Microsoft.AspNetCore.Mvc.ModelBinding.IEnumerableValueProvider, Microsoft.AspNetCore.Mvc.ModelBinding.IKeyRewriterValueProvider",
+    "MemberId": "protected Microsoft.AspNetCore.Mvc.Internal.PrefixContainer get_PrefixContainer()",
+    "Kind": "Removal"
+  },
+  {
+    "TypeId": "public class Microsoft.AspNetCore.Mvc.ModelBinding.QueryStringValueProvider : Microsoft.AspNetCore.Mvc.ModelBinding.BindingSourceValueProvider, Microsoft.AspNetCore.Mvc.ModelBinding.IEnumerableValueProvider",
+    "MemberId": "protected Microsoft.AspNetCore.Mvc.Internal.PrefixContainer get_PrefixContainer()",
+    "Kind": "Removal"
+  },
+  {
+    "TypeId": "public class Microsoft.AspNetCore.Mvc.ModelBinding.RouteValueProvider : Microsoft.AspNetCore.Mvc.ModelBinding.BindingSourceValueProvider",
+    "MemberId": "protected Microsoft.AspNetCore.Mvc.Internal.PrefixContainer get_PrefixContainer()",
+    "Kind": "Removal"
   }
 ]

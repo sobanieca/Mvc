@@ -249,7 +249,7 @@ namespace Microsoft.AspNetCore.Mvc.ModelBinding
             var result = valueProvider.GetValue(string.Empty);
 
             // Assert
-            Assert.Equal("some-value", (string)result);
+            Assert.Equal(ValueProviderResult.None, result);
         }
 
         [Fact]
