@@ -34,12 +34,11 @@ namespace MvcSandbox
                     pattern: "/endpoints",
                     displayName: "Home");
 
-                builder.MapMvcRoute(
+                builder.MapControllerRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
 
-                builder.MapMvcControllers();
-                builder.MapRazorPages();
+                builder.MapApplication();
 
                 builder.MapHealthChecks("/healthz");
             });
